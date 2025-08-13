@@ -1,0 +1,21 @@
+# Ignore everything
+*
+
+# But keep .cpp files
+!*.cpp
+
+# Optional: also keep .h files if you have them
+!*.h
+
+# keep the .gitignore and readme file 
+!readme.md
+!*.gitignore
+
+# Ignore specific output/binary files
+*.out
+*.exe
+*.o
+
+# Ignore build folders (if any)
+build/
+output/
